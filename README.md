@@ -4,7 +4,7 @@
 
 
 ![](/sample-imgs/2020-03-11--05-00-25-929.gif)
-![](2020-03-11--05-03-08-301.gif)
+![](/sample-imgs/2020-03-11--05-03-08-301.gif)
 Table of Contents {#table-of-contents .TOC-Heading}
 =================
 
