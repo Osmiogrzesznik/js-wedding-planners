@@ -1,4 +1,10 @@
 
+
+
+
+
+![](/sample-imgs/2020-03-11--05-00-25-929.gif)
+![](2020-03-11--05-03-08-301.gif)
 Table of Contents {#table-of-contents .TOC-Heading}
 =================
 
@@ -97,7 +103,7 @@ small websites (Rizki, 2018).
 
 
 
-Figure 1. Resonsive layout on mobile devices.
+Figure 1. Responsive layout on mobile devices.
 
 Mobile version of layout in this case is modified only by reconfiguring
 navigation structure.
