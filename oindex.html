@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>JS Wedding Planners</title>
+
+    <!-- Styles -->
+
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Vidaloka" rel="stylesheet">
+    <link rel="stylesheet" href="generalstyle.css">
+    <link name="mainStyle" rel="stylesheet" href="splashCarousel.css">
+    <meta name="robots" content="noindex,follow" />
+</head>
+
+<body>
+
+    <!-- navigables -->
+    <div class="navigable">
+        <div class="navigable-left">
+            <a href="about_us.html">About Us</a>
+            <a href="Contact_Us_form.html">Contact Us</a>
+            <a href="#">Testimonials</a>
+        </div>
+        <div class="navigable-center">
+            <a href="./"><img src="images/logo.png" alt="JS wedding planners"></a>
+        </div>
+        <div class="navigable-right">
+            <button class="accessibtn" onclick="try{toggleAccessibilityMode(this)}catch(err){malert(err)}">Accessibility Off</button>
+        </div>
+    </div>
+
+    <!-- carousel Wrapper -->
+    <div class="css-carousel-wrapper">
+
+
+        <!-- carousel Pagination -->
+        <input type="radio" name="carousel" class="carousel-pos-radio1" id="carousel_1" checked>
+        <input type="radio" name="carousel" class="carousel-pos-radio2" id="carousel_2">
+        <input type="radio" name="carousel" class="carousel-pos-radio3" id="carousel_3">
+        <input type="radio" name="carousel" class="carousel-pos-radio4" id="carousel_4">
+        <input type="radio" name="carousel" class="carousel-pos-radio5" id="carousel_5">
+        <!-- <div class="pagination-wrapper"> -->
+        <div class="carousel-pagenum">
+            <label for="carousel_1" class="page1"></label>
+            <label for="carousel_2" class="page2"></label>
+            <label for="carousel_3" class="page3"></label>
+            <label for="carousel_4" class="page4"></label>
+            <label for="carousel_5" class="page5"></label>
+        </div>
+        <!-- </div> -->
+
+        <!-- carousel #1 -->
+        <div class="carousel piece-1">
+            <img src="images/perfectwedding.jpg" alt="">
+            <div class="carousel-children">
+                <h4>Planning</h4>
+                <h2>No detail is to small</h2>
+                <a href="Contact_Us_form.html"><button type="button" class="get-queries-btn" name="button">Get Queries</button>
+                </a></div>
+            <div class="num-pagenum">
+                <span>1</span>
+            </div>
+        </div>
+
+        <!-- carousel #2 -->
+        <div class="carousel piece-2">
+            <img src="images/cakes.jpg" alt="">
+            <div class="carousel-children">
+                <h4>Cakes</h4>
+                <h2>Sweetest Dreams Come True</h2>
+                <a href="Contact_Us_form.html"><button type="button" class="get-queries-btn" name="button">Get Queries</button>                 </a>
+            </div>
+            <div class="num-pagenum">
+                <span>2</span>
+            </div>
+        </div>
+
+        <!-- carousel #3 -->
+        <div class="carousel piece-3">
+            <img src="images/catering.png" alt="">
+            <div class="carousel-children">
+                <h4>Catering</h4>
+                <h2>Let us do all the work.</h2>
+                <a href="Contact_Us_form.html"><button type="button" class="get-queries-btn" name="button">Get Queries</button>                 </a>
+            </div>
+            <div class="num-pagenum">
+                <span>3</span>
+            </div>
+        </div>
+
+        <!-- carousel #4 -->
+        <div class="carousel piece-4">
+            <img src="images/venues.jpg" alt="">
+            <div class="carousel-children">
+                <h4>Organize</h4>
+                <h2>Your vision, Your event, Your way.</h2>
+                <a href="Contact_Us_form.html"><button type="button" class="get-queries-btn" name="button">Get Queries</button>                 </a>
+            </div>
+            <div class="num-pagenum">
+                <span>4</span>
+            </div>
+        </div>
+
+        <!-- carousel #5 -->
+        <div class="carousel piece-5">
+            <img src="images/cars.jpg" alt="">
+            <div class="carousel-children">
+                <h4>Car Hire</h4>
+                <h2>All roads lead to Happiness</h2>
+                <a href="Contact_Us_form.html"><button type="button" class="get-queries-btn" name="button">Get Queries</button>                 </a>
+            </div>
+            <div class="num-pagenum">
+                <span>5</span>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div id="noConsoleCNT" style="align-text:right;position:relative;">
+        <div id="noConsoleOutput" style="color:#888;padding-left:2em">
+
+        </div>
+        <pre id="emergOut">deefefef</pre>
+        <textarea rows=6 cols=100 id="noConsoleINP" class="form-control"></textarea>
+        <div class="" style="display:flex;justify-content:space-around;">
+
+
+            <button class="btn btn-primary btn-lg" onclick="ncns.prv()">
+             &lt;
+         </button>
+            <button onclick="ncns.store(noConsoleINP.value);noConsole(noConsoleINP.value)" class="btn btn-lg btn-primary">execute
+        </button>
+            <button class="btn btn-primary btn-lg" onclick="ncns.nxt()">
+             &gt;	 
+         </button>
+        </div>
+    </div>
+    <script>
+        // try {
+        //     function noConsole(text) {
+        //         try {
+        //             rt = eval(text)
+        //             noConsoleOutput.insertAdjacentHTML('beforeend', preJSON(rt))
+        //         } catch (e) {
+        //             malert(e + "\n" + e.message + "\n" + JSON.stringify(e, null, 1));
+        //         }
+        //     }
+
+        //     ncns = new NOCONSOLE()
+
+        //     function NOCONSOLE() {
+        //         this.log = rt => noConsoleOutput.insertAdjacentHTML('beforeend', preJSON(rt));
+        //         this.stored = [
+        //             "quizShow.players"
+        //         ];
+        //         this.store = str => {
+        //             if (!this.stored.includes(str)) {
+        //                 this.stored.push(str);
+        //             }
+        //         }
+        //         this.i = 0;
+        //         this.disp = x => {
+        //             noConsoleINP.value = this.stored[this.i];
+        //         }
+        //         this.prv = x => {
+        //             if (this.stored.length === 0) {
+        //                 malert("no stored!");
+        //                 return;
+        //             } else if (this.i === 0) {
+        //                 this.i = this.stored.length;
+        //             }
+        //             this.i--;
+        //             this.disp();
+        //         }
+
+        //         this.nxt = x => {
+        //             if (this.stored.length === 0) {
+        //                 malertm("no stored!");
+        //                 return;
+        //             } else if (this.i === this.stored.length) {
+        //                 this.i = -1;
+        //             }
+        //             this.i++;
+        //             this.disp();
+        //         }
+
+
+
+
+        //     }
+        // } catch (e) {
+        //     document.getElementById("emergOut").innerText += "ERROR" + "\n";
+        //     // malert(e + "\n" + e.message + "\n" + JSON.stringify(e, null, 1));
+        // }
+        loggy = document.getElementById("emergOut")
+        malert("READY !!! ", 1)
+
+        function malert(t, clear) {
+            // noConsoleOutput.value += t;
+
+            loggy.innerText = clear ? t + "\n" : loggy.innerText + t + "\n";
+
+
+
+        }
+        inty = setInterval(function() {
+            malert(Date.now())
+        }, 1000);
+    </script>
+
+    <!-- Scripts -->
+    <!-- <script src="js/jquery-1.9.1.min.js" charset="utf-8"></script> -->
+    <script src="js/hammer.min.js" charset="utf-8"></script>
+    <script src="js/carouselControl.js" charset="utf-8"></script>
+
+
+</body>
+
+</html>

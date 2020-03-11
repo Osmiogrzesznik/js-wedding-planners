@@ -1,0 +1,303 @@
+.navigable {
+    /* position: fixed; */
+    height: 100px;
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.navigable-left {
+    /* margin-left: -33px; */
+}
+
+body,
+html {
+    margin: 0px;
+}
+
+.pic-bg {
+    padding: 0;
+    margin: 0;
+    background-image: url("images/IMG_0400.JPG");
+    background-size: cover;
+}
+
+.navigable-left a {
+    background-image: radial-gradient(white, transparent 70%);
+    font-family: 'Vidaloka';
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 16px;
+    width: 107px;
+    height: 35px;
+    border: 2px solid transparent;
+    display: inline-block;
+    text-align: center;
+    line-height: 25px;
+    transition: all .2s;
+    text-shadow: 0.1rem 0.1rem 0.2rem #fff, -0.1rem -0.1rem 0.2rem #fff, 0.1rem -0.1rem 0.2rem #fff, -0.1rem 0.1rem 0.2rem #fff;
+}
+
+.navigable-left a:hover,
+.navigable-left a:focus {
+    border-color: rgb(234, 46, 73);
+    border-radius: 30px;
+    background-color: rgba(44, 45, 47, 0);
+}
+
+.navigable-center {
+    /* margin-right: 85px; */
+    align-self: center;
+}
+
+.navigable-right {
+    display: flex;
+    align-items: center;
+}
+
+.accessibtn {
+    background-color: #595972;
+    /* width: 97px; */
+    /* height: 30px; */
+    padding: 5% 10%;
+    display: flex;
+    justify-content: center;
+    /* padding: 5px 10px; */
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 15px;
+    border: none;
+    color: #f7f7f8;
+    text-transform: uppercase;
+    position: relative;
+    top: -40%;
+    margin-top: -20%;
+    margin-bottom: auto;
+    /* margin-left: 20px; */
+    transition: all .2s;
+    cursor: pointer;
+}
+
+a,
+button,
+input[type=submit] {
+    transition: all .2s;
+}
+
+map {
+    height: 100%;
+    width: 100%;
+    align-self: stretch;
+}
+
+a:hover,
+button:hover,
+input[type=submit]:hover {
+    cursor: pointer;
+    transform: scale(1.06);
+}
+
+.padded {
+    padding: 20px;
+}
+
+.illustration {
+    /* width: 30%; */
+    align-self: center;
+}
+
+img.illustration {
+    width: 30%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: row;
+}
+
+.part-content {
+    width: 70%;
+    margin: 10px;
+    order: 2;
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
+h2,
+h3 {
+    font-family: 'Vidaloka';
+}
+
+.cardlike {
+    background-color: #f6f6f6ec;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+
+.part {
+    display: flex;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: safe; */
+}
+
+.part-title {
+    font-weight: 1000;
+    text-transform: capitalize;
+    border-bottom: 1px solid #6ad;
+}
+
+.right {
+    order: 3;
+    /* float: right; */
+}
+
+.left {
+    order: 1;
+    /* float: left; */
+}
+
+
+/* Style inputs with type="text", select elements and textareas */
+
+.contactFormparent input,
+.contactFormparent select,
+.contactFormparent textarea {
+    all: unset;
+    display: block;
+    width: 95%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 16px;
+    resize: vertical;
+    /* Allow user to change the height of textarea */
+    background-color: white;
+    background-image: linear-gradient(white, white);
+}
+
+
+/* Style the submit button with a specific background color etc */
+
+input[type=submit] {
+    all: unset;
+    background-image: none !important;
+    background-color: rgb(76, 127, 175);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.mobile-only {
+    display: none;
+}
+
+.desktop-only {
+    display: initial;
+}
+
+.lbl {
+    font-family: sans-serif;
+    font-size: 26px;
+    font-weight: 50;
+    color: rgb(78, 34, 4);
+    /* border-bottom: 1px solid #0e0752; */
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: 100;
+}
+
+.icon {
+    margin: 5px;
+    height: 2rem;
+}
+
+
+/* When moving the mouse over the submit button, add a darker green color */
+
+input[type=submit]:hover {
+    background-color: #0e0752;
+}
+
+
+/* Add a background color and some padding around the form */
+
+.contactFormparent {
+    /* background-image: url('android-chrome-192x192.png'); */
+    background-size: auto;
+    background-color: transparent;
+    border-radius: 5px;
+    /* background-color: #f2f2f2; */
+    padding: 20px;
+}
+
+
+/* Responsive layout for mobile devices */
+
+@media only screen and (max-width: 768px) {
+    .navigable,
+    {
+        padding: 0 3%;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .row {
+        flex-wrap: wrap;
+    }
+    img.illustration {
+        width: 100%;
+    }
+    .part,
+    .part-content {
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 5px;
+    }
+    .part-content,
+    .illustration {
+        width: 100%;
+    }
+    .navigable-center {
+        position: absolute;
+        display: block;
+        left: 10px;
+    }
+    .navigable-right {
+        position: absolute;
+        right: 5px;
+    }
+    .navigable-left {
+        all: unset;
+        display: block;
+        /* position: absolute; */
+        /* margin: auto; */
+        /* botom: -10px; */
+    }
+    .mobile-only {
+        display: initial;
+    }
+    .desktop-only {
+        display: none;
+    }
+}

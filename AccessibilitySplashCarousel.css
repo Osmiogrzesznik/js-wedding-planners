@@ -1,0 +1,549 @@
+* {
+    box-sizing: border-box;
+}
+
+.carousel-pos-radio1,
+.carousel-pos-radio2,
+.carousel-pos-radio3,
+.carousel-pos-radio4,
+.carousel-pos-radio5 {
+    display: none;
+}
+
+
+/* Style inputs with type="text", select elements and textareas */
+
+input[type=text],
+select,
+textarea {
+    all: unset;
+    display: block;
+    width: 95%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    margin-right: auto;
+    margin-left: auto;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical/* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+
+/* Style the submit button with a specific background color etc */
+
+input[type=submit] {
+    all: unset;
+    background-image: none !important;
+    background-color: rgb(76, 127, 175);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+/* When moving the mouse over the submit button, add a darker green color */
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+/* Add a background color and some padding around the form */
+
+.contactFormparent {
+    /* background-image: url('android-chrome-192x192.png'); */
+    background-size: auto;
+    background-color: transparent;
+    border-radius: 5px;
+    /* background-color: #f2f2f2; */
+    padding: 20px;
+}
+
+a {
+    all: unset;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Tangerine', sans-serif;
+}
+
+
+/* navigable */
+
+.navigable {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.navigable-left {
+    margin-left: -33px;
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.navigable-left a {
+    margin: 5px;
+    background-color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 13px;
+    width: 107px;
+    height: 35px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 2px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 25px;
+    transition: all .2s;
+    text-shadow: 0.1rem 0.1rem 0.2rem #fff, -0.1rem -0.1rem 0.2rem #fff, 0.1rem -0.1rem 0.2rem #fff, -0.1rem 0.1rem 0.2rem #fff;
+}
+
+.navigable-left a:hover,
+.navigable-left a:focus {
+    border-color: rgb(234, 46, 73);
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.navigable-center {
+    margin-right: 85px;
+}
+
+.navigable-right {
+    display: flex;
+    align-items: center;
+}
+
+.accessibtn {
+    background-color: #595972;
+    /* width: 97px; */
+    /* height: 30px; */
+    padding: 5% 10%;
+    display: flex;
+    justify-content: center;
+    /* padding: 5px 10px; */
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 15px;
+    border: none;
+    color: #f7f7f8;
+    text-transform: uppercase;
+    position: relative;
+    top: -40%;
+    margin-top: -20%;
+    margin-bottom: auto;
+    /* margin-left: 20px; */
+    transition: all .2s;
+    cursor: pointer;
+}
+
+a:hover,
+button:hover {
+    cursor: pointer;
+    transform: scale(1.06);
+}
+
+
+/* carousel wrapper*/
+
+.css-carousel-wrapper {
+    display: block;
+    background: #FFF;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+
+/* carousel */
+
+.carousel {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 1;
+    z-index: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    -webkit-transition: -webkit-transform 1600ms;
+    transition: -webkit-transform 1600ms, transform 1600ms;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+
+/* pieces Background Color */
+
+.piece-1 {
+    background: rgba(238, 184, 251, 0.5);
+    left: 0;
+}
+
+.piece-2 {
+    background: rgba(248, 211, 190, 0.5);
+    left: 100%
+}
+
+.piece-3 {
+    background: rgba(182, 189, 199, 0.5);
+    left: 200%
+}
+
+.piece-4 {
+    background: rgba(223, 216, 209, 0.5);
+    left: 300%;
+}
+
+.piece-5 {
+    background: rgba(198, 198, 214, 0.5);
+    left: 400%;
+}
+
+.carousel {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.carousel-children {
+    width: 100vw;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+/* carousel Inner pieces offset incrementally to achieve slider effect */
+
+
+/* small slogans */
+
+.carousel h2 {
+    /* position: relative;
+    right: 20px;
+    /* display: block; */
+    width: 100%;
+    align-self: stretch;
+    text-align: end;
+    /* background-color: #fff; */
+    color: #000000;
+    font-size: 10vh;
+    font-weight: 600;
+    line-height: 1.2;
+    text-shadow: 0.1rem 0.1rem 0.2rem #fff, -0.1rem -0.1rem 0.2rem #fff, 0.1rem -0.1rem 0.2rem #fff, -0.1rem 0.1rem 0.2rem #fff;
+    -webkit-transform: translateX(500px);
+    transform: translateX(500px);
+    /* opacity when not selected*/
+    opacity: 0;
+    /* background-image: radial-gradient(white, transparent 30%); */
+}
+
+
+/* service type */
+
+.carousel h4 {
+    font-size: 8vh;
+    font-family: "Vidaloka";
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    line-height: 1.2;
+    opacity: 0;
+    -webkit-transform: translateX(500px);
+    transform: translateX(500px);
+    text-shadow: 0.1rem 0.1rem 0.0rem #fff, -0.1rem -0.1rem 0.0rem #fff, 0.1rem -0.1rem 0.0rem #fff, -0.1rem 0.1rem 0.0rem #fff;
+}
+
+.carousel>img {
+    position: absolute;
+    right: 0%;
+    bottom: 0;
+    height: 100%;
+    opacity: 0;
+    -webkit-transform: translateX(500px);
+    transform: translateX(500px);
+}
+
+.piece-1>img {
+    right: 0;
+}
+
+.get-queries-btn {
+    background-color: white;
+    width: 220px;
+    height: 50px;
+    border-radius: 16px;
+    border: 1px solid black;
+    font-family: sans-serif;
+    font-size: 26px;
+    font-weight: 100;
+    color: #000;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    transition: all .2s;
+    text-transform: capitalize;
+}
+
+.get-queries-btn:hover {
+    box-shadow: 0px 0px 60px -17px rgba(51, 51, 51, 1);
+}
+
+.carousel .get-queries-btn:focus,
+.navigable .signin-btn:focus {
+    outline: none;
+}
+
+
+/* Transitions and Animations */
+
+.carousel h2 {
+    -webkit-transition: opacity 700ms, -webkit-transform 700ms;
+    transition: transform 700ms, opacity 700ms;
+    -webkit-transition-delay: 0.7s;
+    /* Safari */
+    transition-delay: 1.3s;
+}
+
+.carousel h4 {
+    -webkit-transition: opacity 700ms, -webkit-transform 700ms;
+    transition: transform 700ms, opacity 700ms;
+    -webkit-transition-delay: 0.7s;
+    /* Safari */
+    transition-delay: 0.7s;
+}
+
+.carousel>img {
+    -webkit-transition: opacity 700ms, -webkit-transform 700ms;
+    transition: transform 700ms, opacity 700ms;
+    -webkit-transition-delay: 1s;
+    /* Safari */
+    transition-delay: 0.1s;
+}
+
+
+/* num Pagination */
+
+.num-pagenum {
+    position: absolute;
+    bottom: 30px;
+    right: 100px;
+    font-family: "Vidaloka";
+    font-weight: bold;
+}
+
+.num-pagenum span {
+    font-size: 30px;
+    color: #ea2e49;
+    letter-spacing: 4px;
+}
+
+.num-pagenum span:after {
+    content: "/5";
+    font-size: 16px;
+    color: #000;
+}
+
+
+/* carousel Pagger */
+
+.carousel-pagenum {
+    position: absolute;
+    /* right: 50%; */
+    bottom: 30px;
+    width: 100%;
+    margin: 0 auto;
+    /* left: 100px; */
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-pagenum label {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+    background-image: radial-gradient(white, white 40%, black 40%, black 95%);
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+
+/* carousel Pagger Event */
+
+.carousel-pos-radio1:checked~.carousel-pagenum .page1,
+.carousel-pos-radio2:checked~.carousel-pagenum .page2,
+.carousel-pos-radio3:checked~.carousel-pagenum .page3,
+.carousel-pos-radio4:checked~.carousel-pagenum .page4,
+.carousel-pos-radio5:checked~.carousel-pagenum .page5 {
+    width: 19px;
+    height: 19px;
+    border: 2px solid #000000;
+    background-image: radial-gradient(rgb(0, 0, 0), rgb(0, 0, 0) 40%, rgb(255, 255, 255) 40%, rgb(255, 255, 255) 95%);
+}
+
+
+/* carousel piece move in animation */
+
+.carousel-pos-radio1:checked~.carousel {
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+}
+
+.carousel-pos-radio2:checked~.carousel {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+}
+
+.carousel-pos-radio3:checked~.carousel {
+    -webkit-transform: translateX(-200%);
+    transform: translateX(-200%);
+}
+
+.carousel-pos-radio4:checked~.carousel {
+    -webkit-transform: translateX(-300%);
+    transform: translateX(-300%);
+}
+
+.carousel-pos-radio5:checked~.carousel {
+    -webkit-transform: translateX(-400%);
+    transform: translateX(-400%);
+}
+
+.carousel-pos-radio1:checked~.piece-1 h2,
+.carousel-pos-radio2:checked~.piece-2 h2,
+.carousel-pos-radio3:checked~.piece-3 h2,
+.carousel-pos-radio4:checked~.piece-4 h2,
+.carousel-pos-radio5:checked~.piece-5 h2,
+.carousel-pos-radio1:checked~.piece-1 h4,
+.carousel-pos-radio2:checked~.piece-2 h4,
+.carousel-pos-radio3:checked~.piece-3 h4,
+.carousel-pos-radio4:checked~.piece-4 h4,
+.carousel-pos-radio5:checked~.piece-5 h4,
+.carousel-pos-radio1:checked~.piece-1>img,
+.carousel-pos-radio2:checked~.piece-2>img,
+.carousel-pos-radio3:checked~.piece-3>img,
+.carousel-pos-radio4:checked~.piece-4>img,
+.carousel-pos-radio5:checked~.piece-5>img {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.carousel-pos-radio1:checked~.piece-1>img,
+.carousel-pos-radio2:checked~.piece-2>img,
+.carousel-pos-radio3:checked~.piece-3>img,
+.carousel-pos-radio4:checked~.piece-4>img,
+.carousel-pos-radio5:checked~.piece-5>img {
+    opacity: 0.2;
+}
+
+
+/* Responsive layout for mobile devices */
+
+@media only screen and (max-width: 768px) {
+    .carousel h2 {
+        font-size: 7vh;
+    }
+    .carousel h4 {
+        font-size: 7vh;
+        /* background-image: linear-gradient(to right, #FFF, transparent) */
+    }
+    .carousel-children {
+        padding: 0 5%
+    }
+    .navigable {
+        padding: 0 3%;
+    }
+    .navigable-left {
+        position: absolute;
+        width: 100vw;
+        left: 5px;
+        margin: auto;
+        bottom: -30px;
+    }
+    .num-pagenum {
+        right: 3%;
+    }
+    .carousel-pagenum {
+        left: 3%;
+    }
+    .carousel>img {
+        position: absolute;
+        left: 0%;
+        bottom: 0;
+        height: 100%;
+        opacity: 0;
+        -webkit-transform: translateX(500px);
+        transform: translateX(500px);
+    }
+    .piece-1>img {
+        left: unset;
+        right: 0%;
+    }
+    .carousel .get-queries-btn {
+        /* padding: 0 15px; */
+        /* width: 30vw; */
+        /* height: 42px; */
+    }
+    .carousel .get-queries-btn:after {
+        /* top: 15px; */
+    }
+    .carousel>img {
+        right: 3%;
+    }
+    .piece-1>img {
+        right: -110px;
+    }
+}
+
+
+/* ACCESSIBILITY */
+
+.carousel-pos-radio1:checked~.piece-1>img,
+.carousel-pos-radio2:checked~.piece-2>img,
+.carousel-pos-radio3:checked~.piece-3>img,
+.carousel-pos-radio4:checked~.piece-4>img,
+.carousel-pos-radio5:checked~.piece-5>img {
+    opacity: 0.2;
+}

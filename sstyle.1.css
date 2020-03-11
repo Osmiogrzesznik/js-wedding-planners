@@ -1,0 +1,85 @@
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+            font-family: 'Tangerine', sans-serif;
+        }
+        /* navigable */
+        
+        .navigable {
+            position: absolute;
+            width: 100%;
+            height: 100px;
+            padding: 0 100px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            z-index: 1;
+        }
+        
+        .navigable-left {
+            margin-left: -33px;
+        }
+        
+        .navigable-left a {
+            background-image: radial-gradient(white, transparent 70%);
+            font-family: 'Vidaloka';
+            text-decoration: none;
+            text-transform: uppercase;
+            color: #333745;
+            font-size: 16px;
+            /* font-weight: bold; */
+            width: 107px;
+            height: 30px;
+            border: 2px solid transparent;
+            /* border-radius: 15px; */
+            display: inline-block;
+            text-align: center;
+            line-height: 25px;
+            transition: all .2s;
+            text-shadow: 0px 0px 6px rgb(255, 255, 255), 2px 2px 20px rgb(255, 255, 255);
+        }
+        
+        .navigable-left a:hover,
+        .navigable-left a:focus {
+            border-color: rgb(234, 46, 73);
+            background-color: rgba(44, 45, 47, 0);
+        }
+        
+        .navigable-center {
+            margin-right: 85px;
+        }
+        
+        .navigable-right {
+            display: flex;
+            align-items: center;
+        }
+        
+        .signin-btn {
+            background-color: #b8b8b9;
+            width: 97px;
+            height: 30px;
+            display: inline-block;
+            text-align: center;
+            text-decoration: none;
+            font-size: 12px;
+            font-weight: bold;
+            border-radius: 15px;
+            border: none;
+            color: #333745;
+            text-transform: uppercase;
+            margin-left: 20px;
+            transition: all .2s;
+            cursor: pointer;
+        }
+        
+        .signin-btn:hover {
+            transform: scale(1.06);
+        }
+        /* carousel wrapper*/
