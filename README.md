@@ -70,7 +70,9 @@ Design
 
 Technique known as wireframing , will help to focus on design goals.
 
-![](media/image001.png){width="6.260416666666667in" height="3.875in"}Home
+![](media/image001.jpg)
+
+
 Page
 
 Modern institutions, banks , and high-street shops mount digital screens
@@ -89,8 +91,11 @@ slides into main view. There is ongoing discussion in user experience
 circles should Navigation Bar is to be avoided, especially in case of
 small websites (Rizki, 2018).
 
-![](media/image002.png){width="6.260416666666667in"
-height="6.427083333333333in"}
+![](media/image002.png)
+
+
+
+
 
 Figure 1. Resonsive layout on mobile devices.
 
@@ -100,18 +105,29 @@ navigation structure.
 Design -- About Us page
 -----------------------
 
-![](media/image003.png){width="6.270833333333333in" height="5.96875in"}
+![](media/image003.jpg)
 
-![](media/image004.png){width="3.0075831146106737in"
-height="9.05194772528434in"}
+
+
+![](media/image004.jpg)
+
+
+
+
 
 Figure 2 responsive layout on mobile devices
 
 []{#_Toc532649152 .anchor}Design -- Contact Us page.
 
-![](media/image005.png){width="6.260416666666667in"
-height="3.4270833333333335in"}![](media/image006.png){width="2.32295384951881in"
-height="5.387096456692913in"}
+![](media/image005.jpg)
+
+
+
+![](media/image006.jpg)
+
+
+
+
 
 Figure 3. responsive layout on mobile devices
 
@@ -121,74 +137,148 @@ Realisation.
 Realisation -- Home Page.
 -------------------------
 
-![](media/image007.png){width="6.263194444444444in"
-height="3.526388888888889in"}![](media/image008.png){width="1.986447944006999in"
-height="3.537312992125984in"}
+![](media/image007.jpg)
+
+
+
+![](media/image008.jpg)
+
+
+
+
 
 Realisation -- Home page -- Accessibility Mode
 ----------------------------------------------
 
-![](media/image009.png){width="6.268055555555556in"
-height="3.5243055555555554in"}
+![](media/image009.jpg)
 
-![](media/image010.png){width="1.8709678477690288in"
-height="3.3316754155730535in"}
+
+
+
+
+![](media/image010.jpg)
+
+
+
+
 
 Realistaion Presentation Mode - Mobile animations.
 --------------------------------------------------
 
-![](media/image011.png){width="1.8659722222222221in"
-height="3.328472222222222in"}![](media/image012.png){width="1.8659722222222221in"
-height="3.328472222222222in"}![](media/image013.png){width="1.8659722222222221in"
-height="3.328472222222222in"}![](media/image014.png){width="1.8659722222222221in"
-height="3.328472222222222in"}![](media/image015.png){width="1.8659722222222221in"
-height="3.328472222222222in"}
+![](media/image011.png)
+
+
+
+![](media/image012.png)
+
+
+
+![](media/image013.png)
+
+
+
+![](media/image014.png)
+
+
+
+![](media/image015.png)
+
+
+
+
 
 Figure 4.Ongoing Animation screenshots - Mobile IOS.
 
 Realisation -- Presentation Mode -- Desktop- ANIMATIONS 
 -------------------------------------------------------
 
-![](media/image0016.png){width="2.9736843832021in"
-height="1.6726563867016624in"}![](media/image017.png){width="3.3421052055993in"
-height="1.8798873578302713in"}
+![](media/image0016.jpg)
 
-![](media/image018.png){width="2.6052635608048993in"
-height="1.4605347769028871in"}![](media/image019.png){width="2.534834864391951in"
-height="1.4210520559930009in"}![](media/image020.png){width="2.6756605424321958in"
-height="1.5in"}![](media/image021.png){width="2.7226017060367456in"
-height="1.5263156167979002in"}
+
+
+![](media/image017.jpg)
+
+
+
+
+
+![](media/image018.jpg)
+
+
+
+![](media/image019.jpg)
+
+
+
+![](media/image020.jpg)
+
+
+
+![](media/image021.jpg)
+
+
+
+
 
 Figure 5.Ongoing Animation screenshots - Desktop
 
 Realisation - Contact Us page
 -----------------------------
 
-![](media/image022.png){width="6.268055555555556in"
-height="3.486956474190726in"}
+![](media/image022.jpg)
 
-![](media/image023.png){width="1.4196106736657919in"
-height="2.527037401574803in"}![](media/image024.png){width="1.4139555993000874in"
-height="2.51786198600175in"}![](media/image025.png){width="1.4175382764654418in"
-height="2.52424321959755in"}![](media/image026.png){width="1.4160400262467192in"
-height="2.520680227471566in"}
+
+
+
+
+![](media/image023.jpg)
+
+
+
+![](media/image024.jpg)
+
+
+
+![](media/image025.jpg)
+
+
+
+![](media/image026.jpg)
+
+
+
+
 
 Realisation - About Us page
 ---------------------------
 
-![](media/image027.png){width="6.268055555555556in"
-height="3.5243055555555554in"}
+![](media/image027.jpg)
 
-![](media/image028.png){width="1.7958114610673666in"
-height="3.197843394575678in"}
-![](media/image029.png){width="1.7958114610673666in"
-height="3.197843394575678in"}![](media/image030.jpeg){width="1.7368416447944006in"
-height="3.0928324584426945in"}
+
+
+
+
+![](media/image028.jpg)
+
+
+
+
+![](media/image029.jpg)
+
+
+
+![](media/image030.jpg)
+
+
+
+
 
 Thumbnail Icon
 ==============
 
-![](media/image031.png){width="1.5in" height="1.5in"} Icons and brand
+![](media/image031.png)
+
+
 logos are substantial element of brand identification, modern browsers
 and OS offer ways to signify your brand identity through icons, home
 button icons, helping user to navigate between open tabs , or native
@@ -197,13 +287,26 @@ indicate these systems to display our logo as a thumbnail. Favicon file
 , and properly sized png images have to be saved with browser
 configuration manifests that meet specification.
 
-![](media/image032.jpeg){width="1.8521741032370953in"
-height="3.2956911636045496in"}![](media/image033.png){width="1.8452099737532808in"
-height="3.2758409886264217in"}![](media/image034.png){width="1.8832884951881015in"
-height="3.3434437882764656in"}![](media/image035.png){width="1.8472222222222223in"
-height="3.2910258092738407in"}![](media/image036.png){width="2.408695319335083in"
-height="0.825838801399825in"}![](media/image037.png){width="3.4646708223972005in"
-height="0.8350546806649168in"}
+![](media/image032.jpg)
+
+
+
+![](media/image033.jpg)
+
+
+![](media/image034.jpg)
+
+
+![](media/image035.jpg)
+
+
+![](media/image036.jpg)
+
+
+![](media/image037.jpg)
+
+
+
 
 Figure 6. Icon shows properly in native environments. From top left:
 iOS, Android Home Button, Android Firefox, Whatsapp Sharing Function,
@@ -219,33 +322,45 @@ of devices using different input method. Simplest method is to listen
 for touch event, as this provides the full-proof evidence of touch
 enabled device.
 
-![](media/image038.png){width="4.937478127734034in"
-height="4.196527777777778in"}
+![](media/image038.jpg)
 
-![](media/image039.png){width="2.596767279090114in"
-height="4.074868766404199in"}
+
+
+
+![](media/image039.jpg)
+
+
+
 
 Home Page -- Presentation Mode
 ==============================
 
-![](media/image040.png){width="6.270833333333333in" height="5.71875in"}
+![](media/image040.jpg)
 
-![](media/image041.png){width="4.6875in" height="1.8887357830271216in"}
+
+![](media/image041.jpg)
+
 
 Testing Functionality
 =====================
 
-![](media/image042.png){width="6.261111111111111in"
-height="2.834722222222222in"}
+![](media/image042.jpg)
+
+
+
 
 Testing Speech Synthesis -- illustrations.
 ==========================================
 
-![](media/image043.png){width="6.268055555555556in"
-height="3.5243055555555554in"}
+![](media/image043.jpg)
 
-![](media/image044.png){width="6.268055555555556in"
-height="3.5243055555555554in"}
+
+
+
+![](media/image044.jpg)
+
+
+
 
 Figure 7. Testing Accessibility Mode Speech in Firefox and Chrome.
 
@@ -262,10 +377,17 @@ the project by FTP on free webhosting service, X10Hosting.com,
 accessible under the link
 .<http://www.produccio.x10host.com/JSWeddingPlanners/A/>
 
-![](media/image045.png){width="6.0263156167979in"
-height="3.388383639545057in"}![](media/image046.png){width="2.0936734470691163in"
-height="2.8421052055993in"}![](media/image047.png){width="1.5527777777777778in"
-height="1.7104166666666667in"}
+![](media/image045.jpg)
+
+
+![](media/image046.jpg)
+
+
+![](media/image047.png)
+
+
+
+
 
 Figure 8. WAMP server running on localhost, with full LAN access.
 
