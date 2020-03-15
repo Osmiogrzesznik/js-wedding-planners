@@ -1,11 +1,15 @@
 
 
 
+# JS Wedding Planners
 
+[Working Project](/JS-wedding-planners/index.html)
+
+Static Website with speech synthesis for accessibility. Coursework.
 
 ![](/sample-imgs/2020-03-11--05-00-25-929.gif)
 ![](/sample-imgs/2020-03-11--05-03-08-301.gif)
-Table of Contents {#table-of-contents .TOC-Heading}
+## Table of Contents 
 =================
 
 [Design 3](#design)
