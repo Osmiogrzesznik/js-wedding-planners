@@ -3,7 +3,7 @@
 
 # JS Wedding Planners
 
-[Working Project](https://osmiogrzesznik.github.io/JS-wedding-planners/index.html)
+[Working Project](https://osmiogrzesznik.github.io/js-wedding-planners/index.html)
 
 Static Website with speech synthesis for accessibility. Coursework.
 
